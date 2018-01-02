@@ -2,6 +2,8 @@ html {
   font-size: 16px;
   font-family: helvetica;
 }
+
+
 /* header */
 .topbar {
   display: flex;
@@ -11,16 +13,55 @@ html {
   justify-content: flex-end;
   align-items: center;
   padding-right: 1rem;
-
 }
+
 .topbar a {
   display: inline-block;
   padding: .5rem;
   color: white;
   text-decoration: none;
-
 }
+
 .topbar :visited {
   color: white;
+}
 
+
+/* Title */
+.title {
+  display: flex;
+  background-color: orange;
+  height: 25rem;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* About */
+.about {
+  display: flex;
+  background-color: aqua;
+  height: 25rem;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Services */
+.services {
+  display: flex;
+  background-color: green;
+  height: 25rem;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Footer */
+footer {
+  display: flex;
+  background-color: blue;
+  height: 15rem;
+  justify-content: center;
+  align-items: center;
 }
