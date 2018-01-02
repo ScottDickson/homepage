@@ -1,0 +1,26 @@
+html {
+  font-size: 16px;
+  font-family: helvetica;
+}
+/* header */
+.topbar {
+  display: flex;
+  height: 3rem;
+  background-color: black;
+  font-size: 1.2rem;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 1rem;
+
+}
+.topbar a {
+  display: inline-block;
+  padding: .5rem;
+  color: white;
+  text-decoration: none;
+
+}
+.topbar :visited {
+  color: white;
+
+}
